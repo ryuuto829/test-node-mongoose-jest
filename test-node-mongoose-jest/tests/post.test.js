@@ -1,7 +1,7 @@
 const request = require('supertest');
 const app = require('../app');
 const db = require('./db');
-// const Post = require('../models/Post');
+const { create } = require('../services/post');
 
 // Pass supertest agent for each test
 const agent = request.agent(app);
@@ -21,5 +21,10 @@ describe('POST /api/posts/create', () => {
         expect(res.body._id).toBeTruthy();
         done();
       });
+  });
+
+  test('It should return a post with an id', done => {
+    expect(async () => create({ title: 'Some Title', description: 'Some Description' })).not.toThrow();
+    done();
   });
 });

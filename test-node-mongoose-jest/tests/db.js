@@ -2,9 +2,6 @@ const mongoose = require('mongoose');
 const { MongoMemoryServer } = require('mongodb-memory-server');
 
 // Spin up an actual/real MongoDB server programmatically from node, for testing
-// Read more: https://dev.to/paulasantamaria/testing-node-js-mongoose-with-an-in-memory-database-32np
-// Read more: https://github.com/nodkz/mongodb-memory-server
-
 const mongoServer = new MongoMemoryServer();
 
 const opts = {
@@ -12,9 +9,10 @@ const opts = {
   useUnifiedTopology: true,
 };
 
-// Provide connection to a new in-memory database
+// Provide connection to a new in-memory database server.
 const connect = async () => {
-  // Prevent MongooseError: Can't call `openUri()` on an active connection with different connection strings
+  // Prevent MongooseError: Can't call `openUri()` on
+  // an active connection with different connection strings
   await mongoose.disconnect();
 
   const mongoUri = await mongoServer.getUri();
@@ -31,7 +29,7 @@ const close = async () => {
   await mongoServer.stop();
 };
 
-// Clear all data from collections
+// Remove all data from collections.
 const clear = async () => {
   const collections = mongoose.connection.collections;
 
