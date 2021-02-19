@@ -27,3 +27,37 @@ npm install
 npm test
 
 ```
+
+# Description
+
+Project structure:
+
+```
+├── models
+│   ├── User.js
+│   └── Post.js
+├── middlewares
+│   └── auth.js // Check if user has a token
+├── services
+│   ├── user.js
+│   └── post.js
+├── tests
+│   ├── db.js
+│   ├── auth.test.js
+│   └── post.test.js
+├── app.js
+├── server.js
+├── package.json
+├── README.md
+└── ...
+```
+
+API endpoints:
+
+| REQUEST | URL               | Description                  |
+| ------- | ----------------- | ---------------------------- |
+| POST    | /api/user/signup  | register a new user          |
+| POST    | /api/user/login   | user log in                  |
+| GET     | /                 | example of a protected route |
+| POST    | /api/posts/create | create a new post            |
+| GET     | /api/posts/:id    | get post by id               |

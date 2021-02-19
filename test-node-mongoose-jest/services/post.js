@@ -11,7 +11,7 @@ const create = async payload => {
     return await Post.create(payload);
 
   } catch (err) {
-    throw new Error(`Can't store data to db, try later${  err}`);
+    throw new Error(`Can't store data to db`);
   }
 };
 
