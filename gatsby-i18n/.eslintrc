@@ -1,0 +1,7 @@
+{
+  "extends": ["@ryuuto829/eslint-config-with-prettier/react"],
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}

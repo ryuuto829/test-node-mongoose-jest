@@ -1,0 +1,13 @@
+{
+  "title": "Gatsbyデフォルトスターター",
+  "greeting": "皆さん、こんにちは",
+  "mainPageContent": "Gatsby CLI ツールでは、スターターをインストールできます。これは、コミュニティーによってメンテナンスされ、迅速に開発を開始することを目的とした雛形の Gatsby サイトです。",
+  "secondPageLink": "２ページへ移ります",
+  "goHomeLink": "ホームページへります",
+  "secodPageContent": "２ページへようこそ",
+  "secondGreeting": "こんにち、２ページがありなす",
+  "indexPageTitle": "ホムペ",
+  "secondPageTitle": "２ページ",
+  "NotFoundPageTitle": "ページが見つからない",
+  "NotFoundPageContent": "404: ページが見つからない"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Gatsby Default Starter",
+  "greeting": "Hi people",
+  "mainPageContent": "The Gatsby CLI tool lets you install starters, which are boilerplate Gatsby sites maintained by the community and intended for jump-starting development quickly.",
+  "secondPageLink": "Go to page 2",
+  "goHomeLink": "Go back to the homepage",
+  "secodPageContent": "Welcome to page 2",
+  "secondGreeting": "Hi from the second page",
+  "indexPageTitle": "Home",
+  "secondPageTitle": "Page two",
+  "NotFoundPageTitle": "Not found",
+  "NotFoundPageContent": "404: Not Found"
+}
