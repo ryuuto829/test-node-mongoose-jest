@@ -595,3 +595,31 @@ pre tt:after {
     font-size: 100%;
   }
 }
+.head {
+  background: rebeccapurple;
+  margin-bottom: 1.45rem;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1.45rem 1.0875rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link {
+  display: flex;
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+}
+.btn {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}

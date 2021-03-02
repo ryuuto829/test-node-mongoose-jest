@@ -26,7 +26,7 @@ exports.onCreatePage = ({ page, actions }) => {
         path: localizedPath,
         context: {
           locale: lang,
-          isDefault: isDefault,
+          isDefault,
         },
       });
     });

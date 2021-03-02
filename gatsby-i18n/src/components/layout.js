@@ -8,8 +8,8 @@
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 
-import Header from './header';
 import './layout.css';
+import Header from './header';
 import { useLocale } from '../hooks/useLocale';
 
 const Layout = ({ children, pageContext: { locale, isDefault } }) => {

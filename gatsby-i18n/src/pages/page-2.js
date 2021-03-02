@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
+import { Link } from 'gatsby';
 
 import SEO from '../components/seo';
 import { localizedLink } from '../utils/localizedLink';
@@ -8,7 +8,12 @@ import useTranslation from '../hooks/useTranslation';
 
 const SecondPage = ({ pageContext }) => {
   const { locale, isDefault }  = pageContext;
-  const { secodPageContent, goHomeLink, secondGreeting, secondPageTitle } = useTranslation();
+  const {
+    secodPageContent,
+    goHomeLink,
+    secondGreeting,
+    secondPageTitle,
+  } = useTranslation();
 
   return (
     <>
