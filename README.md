@@ -2,13 +2,20 @@
 
 A sample project for testing node.js + mongoose app using jest, supertest and mongodb-memory-server.
 
-> **Read more in this [article](https://dev.to/ryuuto829/setup-in-memory-database-for-testing-node-js-and-mongoose-1kop) on [dev.to](https://dev.to/).**
+**Read more in this [article](https://dev.to/ryuuto829/setup-in-memory-database-for-testing-node-js-and-mongoose-1kop) on [dev.to](https://dev.to/).**
+
+⚠️ **For the project using old version of mongodb-memory-server (@6.9.3) go to [this branch](https://github.com/ryuuto829/test-node-mongoose-jest/tree/mongodb-memory-server%406.9.3).**
 
 # Links
 
 - [mongodb-memory-server](https://github.com/nodkz/mongodb-memory-server)
 - [supertest](https://www.npmjs.com/package/supertest)
 - [jest](https://jestjs.io/)
+
+# Requirements
+
+- mongodb-memory-server: 7+
+- NodeJS: 12.22+
 
 # Usage
 
