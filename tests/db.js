@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const { MongoMemoryServer } = require('mongodb-memory-server');
 
-// Define an new instance of "MongoMemoryServer" to automatically start server
+// Define a new instance of "MongoMemoryServer" to automatically start server
 let mongoServer;
 
 // For mongodb-memory-server's old version (< 7) use this instead:
