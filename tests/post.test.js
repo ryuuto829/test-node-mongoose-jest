@@ -26,7 +26,10 @@ describe('POST /api/posts/create', () => {
 
 describe('services/post.js', () => {
   test('It should return a post with an id', done => {
-    expect(async () => create({ title: 'Some Title', description: 'Some Description' })).not.toThrow();
+    expect(async () => create({
+      title: 'Some Title',
+      description: 'Some Description',
+    })).not.toThrow();
     done();
   });
 });
